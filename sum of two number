@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Read input from the user.
+read -p "Enter the first number: " a
+read -p "Enter the second number: " b
+
+# Calculate the sum of the two numbers.
+sum=$((a + b))
+
+# Print the sum of the two numbers.
+echo "The sum of the two numbers is: $sum"
