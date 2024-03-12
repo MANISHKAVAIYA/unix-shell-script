@@ -1,0 +1,9 @@
+#!/bin/sh
+
+NAME[0]="India"
+NAME[1]="Bharat"
+NAME[2]="Hindustan"
+NAME[3]="Aaryavrat"
+NAME[4]="Bharat Khand"
+echo "First Index: ${NAME[0]}"
+echo "Second Index: ${NAME[1]}"
