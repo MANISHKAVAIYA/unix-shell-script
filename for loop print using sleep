@@ -1,0 +1,8 @@
+#!/bin/bash
+max=20
+for (( i=1; i<=$max; i++ ))
+do
+  echo -n "$i..."
+  sleep 1 #after one second
+  echo #print new line 
+done
