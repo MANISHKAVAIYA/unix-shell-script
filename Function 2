@@ -1,0 +1,17 @@
+#!/bin/bash
+compare()
+{
+
+file1 = $1
+
+file2 = $2
+
+cmp $file1 $file2
+
+if [ $file1 -eq $file2 ]
+then
+        echo "comparison is possible"
+else
+        echo "compariosn is not possible"
+fi
+}
