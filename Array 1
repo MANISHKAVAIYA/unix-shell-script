@@ -1,0 +1,9 @@
+#!/bin/sh
+
+NAME[0]="Dhoni"
+NAME[1]="Kohli"
+NAME[2]="Rohit"
+NAME[3]="Kapil"
+NAME[4]="Dev"
+echo "First Index: ${NAME[0]}"
+echo "Second Index: ${NAME[1]}"
