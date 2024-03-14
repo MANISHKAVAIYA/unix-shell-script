@@ -1,0 +1,11 @@
+#!/bin/bash
+function digital_clock 
+{
+            clear
+            while [ 1 ]
+            do
+                  date +'%T'
+                  sleep 1
+                  clear
+            done
+ }
