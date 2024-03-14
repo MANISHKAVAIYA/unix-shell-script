@@ -1,0 +1,10 @@
+#!/bin/bash
+ 
+function check_empty()
+ {
+  if [ -z "$1" ]; then
+    echo "Error: Argument is empty!"
+    return 1
+  fi
+  echo "Argument: $1"
+}
